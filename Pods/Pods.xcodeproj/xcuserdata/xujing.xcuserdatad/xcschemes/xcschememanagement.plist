@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-KokyTestRAC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-KokyTestRACTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-KokyTestRACUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReactiveCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Result.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7FC89B30C3C68B35F945DDFCC2B0A857</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B4E2A39C0A2C4ACE9EB16592E3793D38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B828C2732E4AEF19C7DA9CCA3F496E7B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BDDA5C5E1AD54B975E959067B60C07E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA501CDC9EECA138C1950B60BD275569</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

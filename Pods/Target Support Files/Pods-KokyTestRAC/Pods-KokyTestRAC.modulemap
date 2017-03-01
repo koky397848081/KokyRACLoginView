@@ -1,0 +1,6 @@
+framework module Pods_KokyTestRAC {
+  umbrella header "Pods-KokyTestRAC-umbrella.h"
+
+  export *
+  module * { export * }
+}

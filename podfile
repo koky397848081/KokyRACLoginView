@@ -1,0 +1,24 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'KokyTestRAC' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for KokyTestRAC
+
+  target 'KokyTestRACTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'KokyTestRACUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+use_frameworks!
+
+pod 'ReactiveCocoa'
+
+end

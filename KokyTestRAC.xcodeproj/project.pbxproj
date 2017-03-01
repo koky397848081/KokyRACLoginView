@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D52CF47FB6CE8A27A4A5F0D /* Pods_KokyTestRAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D116964FB4B1F20BAC6D31 /* Pods_KokyTestRAC.framework */; };
+		6930459E1E666A980078579E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6930459D1E666A980078579E /* main.m */; };
+		693045A11E666A980078579E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 693045A01E666A980078579E /* AppDelegate.m */; };
+		693045A41E666A980078579E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693045A31E666A980078579E /* ViewController.m */; };
+		693045A71E666A980078579E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693045A51E666A980078579E /* Main.storyboard */; };
+		693045A91E666A980078579E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 693045A81E666A980078579E /* Assets.xcassets */; };
+		693045AC1E666A980078579E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693045AA1E666A980078579E /* LaunchScreen.storyboard */; };
+		693045B71E666A980078579E /* KokyTestRACTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 693045B61E666A980078579E /* KokyTestRACTests.m */; };
+		693045C21E666A980078579E /* KokyTestRACUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 693045C11E666A980078579E /* KokyTestRACUITests.m */; };
+		693045D21E6675A40078579E /* ALLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 693045D11E6675A40078579E /* ALLoginViewModel.m */; };
+		693045D51E66948C0078579E /* ReactiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 693045D41E66948C0078579E /* ReactiveVC.m */; };
+		8DE78643572F11B3697D924E /* Pods_KokyTestRACTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A21FCA58CF26404D684546E /* Pods_KokyTestRACTests.framework */; };
+		D9E11A6E802FA7115AA92C54 /* Pods_KokyTestRACUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA9B8DC8941309D2742A7A4 /* Pods_KokyTestRACUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		693045B31E666A980078579E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 693045911E666A980078579E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 693045981E666A980078579E;
+			remoteInfo = KokyTestRAC;
+		};
+		693045BE1E666A980078579E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 693045911E666A980078579E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 693045981E666A980078579E;
+			remoteInfo = KokyTestRAC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36AFA88A59893D429FB964B5 /* Pods-KokyTestRAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyTestRAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-KokyTestRAC/Pods-KokyTestRAC.release.xcconfig"; sourceTree = "<group>"; };
+		51714D79D44CE42F62D80498 /* Pods-KokyTestRAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyTestRAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KokyTestRAC/Pods-KokyTestRAC.debug.xcconfig"; sourceTree = "<group>"; };
+		5A21FCA58CF26404D684546E /* Pods_KokyTestRACTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KokyTestRACTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		693045991E666A980078579E /* KokyTestRAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KokyTestRAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6930459D1E666A980078579E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6930459F1E666A980078579E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		693045A01E666A980078579E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		693045A21E666A980078579E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		693045A31E666A980078579E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		693045A61E666A980078579E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		693045A81E666A980078579E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		693045AB1E666A980078579E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		693045AD1E666A980078579E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693045B21E666A980078579E /* KokyTestRACTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KokyTestRACTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		693045B61E666A980078579E /* KokyTestRACTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KokyTestRACTests.m; sourceTree = "<group>"; };
+		693045B81E666A980078579E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693045BD1E666A980078579E /* KokyTestRACUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KokyTestRACUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		693045C11E666A980078579E /* KokyTestRACUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KokyTestRACUITests.m; sourceTree = "<group>"; };
+		693045C31E666A980078579E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693045D01E6675A40078579E /* ALLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLoginViewModel.h; sourceTree = "<group>"; };
+		693045D11E6675A40078579E /* ALLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLoginViewModel.m; sourceTree = "<group>"; };
+		693045D31E66948C0078579E /* ReactiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveVC.h; sourceTree = "<group>"; };
+		693045D41E66948C0078579E /* ReactiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveVC.m; sourceTree = "<group>"; };
+		92C8E4BA46669373A948B1A2 /* Pods-KokyTestRACUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyTestRACUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KokyTestRACUITests/Pods-KokyTestRACUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E535296062E69E33F9BFDA1 /* Pods-KokyTestRACTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyTestRACTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KokyTestRACTests/Pods-KokyTestRACTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A79FCED9B2E8AA4C204B6B18 /* Pods-KokyTestRACUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyTestRACUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KokyTestRACUITests/Pods-KokyTestRACUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBA9B8DC8941309D2742A7A4 /* Pods_KokyTestRACUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KokyTestRACUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D116964FB4B1F20BAC6D31 /* Pods_KokyTestRAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KokyTestRAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F526462B1319F99D3A5BB3 /* Pods-KokyTestRACTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyTestRACTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KokyTestRACTests/Pods-KokyTestRACTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		693045961E666A980078579E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D52CF47FB6CE8A27A4A5F0D /* Pods_KokyTestRAC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693045AF1E666A980078579E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE78643572F11B3697D924E /* Pods_KokyTestRACTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693045BA1E666A980078579E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E11A6E802FA7115AA92C54 /* Pods_KokyTestRACUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A49A8E01CD6EE0890B312C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4D116964FB4B1F20BAC6D31 /* Pods_KokyTestRAC.framework */,
+				5A21FCA58CF26404D684546E /* Pods_KokyTestRACTests.framework */,
+				BBA9B8DC8941309D2742A7A4 /* Pods_KokyTestRACUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		693045901E666A980078579E = {
+			isa = PBXGroup;
+			children = (
+				6930459B1E666A980078579E /* KokyTestRAC */,
+				693045B51E666A980078579E /* KokyTestRACTests */,
+				693045C01E666A980078579E /* KokyTestRACUITests */,
+				6930459A1E666A980078579E /* Products */,
+				C02B3A5303BAF7E13ABC5A96 /* Pods */,
+				16A49A8E01CD6EE0890B312C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6930459A1E666A980078579E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				693045991E666A980078579E /* KokyTestRAC.app */,
+				693045B21E666A980078579E /* KokyTestRACTests.xctest */,
+				693045BD1E666A980078579E /* KokyTestRACUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6930459B1E666A980078579E /* KokyTestRAC */ = {
+			isa = PBXGroup;
+			children = (
+				693045CF1E66759E0078579E /* ViewModel */,
+				6930459F1E666A980078579E /* AppDelegate.h */,
+				693045A01E666A980078579E /* AppDelegate.m */,
+				693045A21E666A980078579E /* ViewController.h */,
+				693045A31E666A980078579E /* ViewController.m */,
+				693045D31E66948C0078579E /* ReactiveVC.h */,
+				693045D41E66948C0078579E /* ReactiveVC.m */,
+				693045A51E666A980078579E /* Main.storyboard */,
+				693045A81E666A980078579E /* Assets.xcassets */,
+				693045AA1E666A980078579E /* LaunchScreen.storyboard */,
+				693045AD1E666A980078579E /* Info.plist */,
+				6930459C1E666A980078579E /* Supporting Files */,
+			);
+			path = KokyTestRAC;
+			sourceTree = "<group>";
+		};
+		6930459C1E666A980078579E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6930459D1E666A980078579E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		693045B51E666A980078579E /* KokyTestRACTests */ = {
+			isa = PBXGroup;
+			children = (
+				693045B61E666A980078579E /* KokyTestRACTests.m */,
+				693045B81E666A980078579E /* Info.plist */,
+			);
+			path = KokyTestRACTests;
+			sourceTree = "<group>";
+		};
+		693045C01E666A980078579E /* KokyTestRACUITests */ = {
+			isa = PBXGroup;
+			children = (
+				693045C11E666A980078579E /* KokyTestRACUITests.m */,
+				693045C31E666A980078579E /* Info.plist */,
+			);
+			path = KokyTestRACUITests;
+			sourceTree = "<group>";
+		};
+		693045CF1E66759E0078579E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				693045D01E6675A40078579E /* ALLoginViewModel.h */,
+				693045D11E6675A40078579E /* ALLoginViewModel.m */,
+			);
+			name = ViewModel;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C02B3A5303BAF7E13ABC5A96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51714D79D44CE42F62D80498 /* Pods-KokyTestRAC.debug.xcconfig */,
+				36AFA88A59893D429FB964B5 /* Pods-KokyTestRAC.release.xcconfig */,
+				9E535296062E69E33F9BFDA1 /* Pods-KokyTestRACTests.debug.xcconfig */,
+				D6F526462B1319F99D3A5BB3 /* Pods-KokyTestRACTests.release.xcconfig */,
+				A79FCED9B2E8AA4C204B6B18 /* Pods-KokyTestRACUITests.debug.xcconfig */,
+				92C8E4BA46669373A948B1A2 /* Pods-KokyTestRACUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		693045981E666A980078579E /* KokyTestRAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 693045C61E666A980078579E /* Build configuration list for PBXNativeTarget "KokyTestRAC" */;
+			buildPhases = (
+				7F4EB368C23350B7B508464C /* [CP] Check Pods Manifest.lock */,
+				693045951E666A980078579E /* Sources */,
+				693045961E666A980078579E /* Frameworks */,
+				693045971E666A980078579E /* Resources */,
+				4D2090F03A91CE6D182B1E28 /* [CP] Embed Pods Frameworks */,
+				F03403A4B403C4554A7AD68E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KokyTestRAC;
+			productName = KokyTestRAC;
+			productReference = 693045991E666A980078579E /* KokyTestRAC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		693045B11E666A980078579E /* KokyTestRACTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 693045C91E666A980078579E /* Build configuration list for PBXNativeTarget "KokyTestRACTests" */;
+			buildPhases = (
+				EE405081175641E304F7B20C /* [CP] Check Pods Manifest.lock */,
+				693045AE1E666A980078579E /* Sources */,
+				693045AF1E666A980078579E /* Frameworks */,
+				693045B01E666A980078579E /* Resources */,
+				8DAD8B8255E37DD318D9E622 /* [CP] Embed Pods Frameworks */,
+				87A796EBFFE7560CDEDC7E2F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				693045B41E666A980078579E /* PBXTargetDependency */,
+			);
+			name = KokyTestRACTests;
+			productName = KokyTestRACTests;
+			productReference = 693045B21E666A980078579E /* KokyTestRACTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		693045BC1E666A980078579E /* KokyTestRACUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 693045CC1E666A980078579E /* Build configuration list for PBXNativeTarget "KokyTestRACUITests" */;
+			buildPhases = (
+				C21DE8457A6FA77997356407 /* [CP] Check Pods Manifest.lock */,
+				693045B91E666A980078579E /* Sources */,
+				693045BA1E666A980078579E /* Frameworks */,
+				693045BB1E666A980078579E /* Resources */,
+				023EB7844A620A674F1FAE68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				693045BF1E666A980078579E /* PBXTargetDependency */,
+			);
+			name = KokyTestRACUITests;
+			productName = KokyTestRACUITests;
+			productReference = 693045BD1E666A980078579E /* KokyTestRACUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		693045911E666A980078579E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xujing;
+				TargetAttributes = {
+					693045981E666A980078579E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+					};
+					693045B11E666A980078579E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 693045981E666A980078579E;
+					};
+					693045BC1E666A980078579E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 693045981E666A980078579E;
+					};
+				};
+			};
+			buildConfigurationList = 693045941E666A980078579E /* Build configuration list for PBXProject "KokyTestRAC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 693045901E666A980078579E;
+			productRefGroup = 6930459A1E666A980078579E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				693045981E666A980078579E /* KokyTestRAC */,
+				693045B11E666A980078579E /* KokyTestRACTests */,
+				693045BC1E666A980078579E /* KokyTestRACUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		693045971E666A980078579E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693045AC1E666A980078579E /* LaunchScreen.storyboard in Resources */,
+				693045A91E666A980078579E /* Assets.xcassets in Resources */,
+				693045A71E666A980078579E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693045B01E666A980078579E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693045BB1E666A980078579E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		023EB7844A620A674F1FAE68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyTestRACUITests/Pods-KokyTestRACUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D2090F03A91CE6D182B1E28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyTestRAC/Pods-KokyTestRAC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F4EB368C23350B7B508464C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87A796EBFFE7560CDEDC7E2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyTestRACTests/Pods-KokyTestRACTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DAD8B8255E37DD318D9E622 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyTestRACTests/Pods-KokyTestRACTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C21DE8457A6FA77997356407 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE405081175641E304F7B20C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F03403A4B403C4554A7AD68E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyTestRAC/Pods-KokyTestRAC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		693045951E666A980078579E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693045A41E666A980078579E /* ViewController.m in Sources */,
+				693045A11E666A980078579E /* AppDelegate.m in Sources */,
+				6930459E1E666A980078579E /* main.m in Sources */,
+				693045D21E6675A40078579E /* ALLoginViewModel.m in Sources */,
+				693045D51E66948C0078579E /* ReactiveVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693045AE1E666A980078579E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693045B71E666A980078579E /* KokyTestRACTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693045B91E666A980078579E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693045C21E666A980078579E /* KokyTestRACUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		693045B41E666A980078579E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 693045981E666A980078579E /* KokyTestRAC */;
+			targetProxy = 693045B31E666A980078579E /* PBXContainerItemProxy */;
+		};
+		693045BF1E666A980078579E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 693045981E666A980078579E /* KokyTestRAC */;
+			targetProxy = 693045BE1E666A980078579E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		693045A51E666A980078579E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				693045A61E666A980078579E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		693045AA1E666A980078579E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				693045AB1E666A980078579E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		693045C41E666A980078579E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		693045C51E666A980078579E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		693045C71E666A980078579E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51714D79D44CE42F62D80498 /* Pods-KokyTestRAC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyTestRAC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.KokyTestRAC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		693045C81E666A980078579E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36AFA88A59893D429FB964B5 /* Pods-KokyTestRAC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyTestRAC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.KokyTestRAC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		693045CA1E666A980078579E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E535296062E69E33F9BFDA1 /* Pods-KokyTestRACTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyTestRACTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.KokyTestRACTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KokyTestRAC.app/KokyTestRAC";
+			};
+			name = Debug;
+		};
+		693045CB1E666A980078579E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F526462B1319F99D3A5BB3 /* Pods-KokyTestRACTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyTestRACTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.KokyTestRACTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KokyTestRAC.app/KokyTestRAC";
+			};
+			name = Release;
+		};
+		693045CD1E666A980078579E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79FCED9B2E8AA4C204B6B18 /* Pods-KokyTestRACUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyTestRACUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.KokyTestRACUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KokyTestRAC;
+			};
+			name = Debug;
+		};
+		693045CE1E666A980078579E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C8E4BA46669373A948B1A2 /* Pods-KokyTestRACUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyTestRACUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.KokyTestRACUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KokyTestRAC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		693045941E666A980078579E /* Build configuration list for PBXProject "KokyTestRAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693045C41E666A980078579E /* Debug */,
+				693045C51E666A980078579E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		693045C61E666A980078579E /* Build configuration list for PBXNativeTarget "KokyTestRAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693045C71E666A980078579E /* Debug */,
+				693045C81E666A980078579E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		693045C91E666A980078579E /* Build configuration list for PBXNativeTarget "KokyTestRACTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693045CA1E666A980078579E /* Debug */,
+				693045CB1E666A980078579E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		693045CC1E666A980078579E /* Build configuration list for PBXNativeTarget "KokyTestRACUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693045CD1E666A980078579E /* Debug */,
+				693045CE1E666A980078579E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 693045911E666A980078579E /* Project object */;
+}
